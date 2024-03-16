@@ -1,7 +1,0 @@
-Создание ВМ ubuntu-22.04-lts на тестовом аккаунте Yandex Cloud (token,cloud_id,folder_id - скрыты)
-
-main.tf - основной конфиг файл
-variables.tf - переменные для основного файла
-terraform.tfvars - файл с значениями переменных для создаваемых внутри ВМ УЗ
-init.ps1 - скрипт для создания пользователя и установки password для admin, учетные данные берутся из variables.tf
-terraform.rc - файл с указанием провайдера
